@@ -1,7 +1,3 @@
-# Aplikasi-Login-Dicoding
-an app for login and logout from dicoding 
---------------------------------------------------------------
-Alur Fitur Login:
-1. Memasukkan email dan password
-2. Memvalidasi masukan.
-3. Menampilkan halaman homepage.
+# Shark-Web 
+This is still in the development stage and it still looks very simple so there is still a lot that needs to be improved.
+Thank you
