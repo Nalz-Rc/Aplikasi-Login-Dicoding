@@ -1,0 +1,187 @@
+h1 {
+    font-family: 'Sofadi One', system-ui;
+    font-weight: 500;
+    font-size: 6em;
+    margin-bottom: 0;
+}
+h2,h3{ 
+    font-size: 2.6em ;
+    margin: 10px;
+
+}
+main{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+}
+article p{
+    text-align: justify;
+    margin: 40px;
+    font-size: 25px;
+}
+
+.fav{
+    margin: 20px;
+    text-align: center;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #F6F4EB; 
+    color: #749BC2;
+    margin: 0;
+    padding: 0;
+}
+header p{
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+header{
+    display: inline;
+}
+
+
+/* navigasi */
+
+nav a{
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #000000;
+
+}
+
+/* mengubah text navigasi menjadi horizontal menggunakan inline */
+nav li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav {
+    background-color: #3A6D8C;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul {
+    padding-inline: 6rem;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+button {
+    margin-left: auto; /* Pindahkan tombol ke ujung kanan */
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    color: black;
+}
+button:hover {
+    color: #fffdfd;
+    background-color: #000000;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 500px;
+    max-width: 500px;
+    object-position: center;
+    box-shadow: 2px 2px 20px 1px #00d9ff;
+    object-fit: cover;
+}
+.profile img{
+    max-width: 100%;
+    min-height: 200px;
+    min-width: 300px;
+    display: block;
+}
+
+footer {
+    padding: 20px;
+    font-size: 1em;
+    background-color: #4682A9; 
+    color: #F6F4EB; 
+}
+
+.card {
+    box-shadow: 8px 10px 15px 8px rgba(0, 208, 255, 0.622);
+    border-radius: 5px;
+    padding: 20px 40px 40px 40px;
+    margin-top: 10px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 20px 20px 10px 20px;
+    background-color: #3A6D8C;
+    text-align: center;
+    color: white;
+}
+.jumbotron p{
+    margin: 0;
+}
+#content{
+    flex: 5;
+    padding: 20px 10px 20px 10px;
+}
+aside {
+    flex: 10;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word
+}
+.table table {
+    width: 100%
+}
+#judul_logo{
+    font-size: 2em;
+    margin: 0;
+    width: 100%;
+}
+
+footer p{
+    font-size: 20px;
+}
+mark{
+    background-color: #75e6ff;
+}
+/* button */
+.dark-mode {
+    background-color: #001F3F;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;  /* aside dan konten mengambil lebar penuh */
+        padding: 0;
+        flex-direction: column;
+    }
+    aside {
+        max-width: 100%;  /* Memastikan aside melebar sepenuhnya */
+    }
+}
